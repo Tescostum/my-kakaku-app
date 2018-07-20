@@ -71,3 +71,8 @@ typings/
 
 # Serverless directories
 .serverless
+
+# 出力されるファイルの除外
+index.js
+index.js.map
+kakaku.json
