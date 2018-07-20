@@ -7,14 +7,6 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "Launch Program",
-            "program": "${workspaceFolder}/index.js",
-            "sourceMaps": true,
-            "useWSL": true
-        },
-        {
-            "type": "node",
-            "request": "launch",
             "name": "プログラムの起動",
             "program": "${workspaceFolder}/index.js",
             "cwd": "${workspaceFolder}",
