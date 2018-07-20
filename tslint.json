@@ -1,0 +1,25 @@
+{
+    "rulesDirectory": [
+        "tslint-plugin-prettier"
+    ],
+    "extends": [
+        "tslint-config-standard",
+        "tslint-config-prettier"
+    ],
+    "rules": {
+        "no-console": [
+            true,
+            "debug",
+            "info",
+            "time",
+            "timeEnd",
+            "trace"
+        ],
+        "prettier": [
+            true, {
+              "singleQuote": true,
+              "semi": false
+            }
+        ]
+    }
+}
